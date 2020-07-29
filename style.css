@@ -1,0 +1,94 @@
+line-height {
+    line-height: 2em;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;;
+    background-color: #F7F9FC;
+}
+
+h1 {
+    color: #6886c5;
+}
+
+h2 {
+    color: #ffacb7;
+}
+
+.social-button {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; /*permet aux icônes d'être alignés horizontalement */
+    padding: 10px;
+    font-size: 30px;
+    
+    /* float: center; */
+    /* position: sticky; */
+}
+
+
+.social-button-color {
+    color: #6886c5;
+}
+
+.social-button-color:hover {
+    color: #ffacb7;
+}
+
+.socialbutton:hover {
+    color: #6886c5;
+}
+
+.container {
+    width: 700px;       /* This sets the width */
+    margin: 40px auto; /* This automatically sets left/right margins */
+  }
+
+.card {
+    border-radius: 4px;
+    margin: 20px 0px;
+    padding: 40px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1); 
+}
+
+.round_image {
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+}
+
+.wagon_link {
+    color: #f4f6ff;
+    background-color: #6886c5;
+    padding: 15px 4px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.wagon_link:hover {
+    background-color: #ffacb7;
+    color: white;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+  @media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+  
